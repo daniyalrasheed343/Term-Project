@@ -66,13 +66,14 @@
 }
 
 .firstSection {
-  height: 110vh;
+  height: 115vh;
+  float: left;
 }
 
 .box-main {
   display: flex;
-  justify-content: center;
-  align-items: center;
+  justify-content: left;
+  align-items: left;
   color: white;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serifq;
   max-width: 40%;
@@ -88,7 +89,7 @@
 }
 
 .secondHalf {
-  width: 30%;
+  width: 35%;
 }
 
 .secondHalf img {
@@ -122,4 +123,6 @@
   -o-border-radius: 8px;
   background: none;
   color: white;
+}
+.btn :hover{
 }
